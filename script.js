@@ -5,9 +5,6 @@ window.addEventListener('beforeunload', function (e) {
 });
 
 function closePopup() {
-    window.open("https://www.chip.de/downloads/GTA-5-fuer-PC-Vollversion_77903858.html");
-    window.open("https://www.winngems.com/en/clash-of-clans/selecciona-cantidad");
-    window.open("https://www.ipso.ch/angebote/informatikerin-efz-fachrichtung-applikationsentwicklung?school=ibz");
     window.open("index.html", "_blank");
     sendNotification();
 }
