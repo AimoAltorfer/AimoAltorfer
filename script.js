@@ -1,9 +1,4 @@
 
-window.addEventListener('beforeunload', function (e) {
-    e.preventDefault();
-    e.returnValue = 'Sind Sie sicher, dass Sie die Seite verlassen möchten?';
-});
-
 function closePopup() {
     window.open("index.html", "_blank");
     sendNotification();
