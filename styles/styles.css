@@ -1,0 +1,74 @@
+/*Landingpage*/
+body {
+    font-family: Arial, sans-serif;
+}
+p {
+    color: #ff0000;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+}
+.overlay.show {
+    visibility: visible;
+    opacity: 1;
+}
+.popup {
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.popup img {
+    max-width: 90%;
+}
+.close-btn {
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 30px;
+    color: #fff;
+    background-color: #ff0000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buy-btn {
+    background-color: #00ff26;
+    color: #ffffff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .buy-btn:hover {
+    background-color: #00e025;
+    transform: translateY(-2px); 
+  }
+  
+  .buy-btn:active {
+    background-color: #00c021; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transform: translateY(1px); 
+  }

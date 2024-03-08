@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  .credit-card-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  #time {
+    font-size: 20px; /* Größere Schrift für den Timer */
+    font-weight: bold; /* Fettgedruckter Text */
+    color: #ff0000; /* Rote Farbe, um Dringlichkeit zu signalisieren */
+  }
+  
+  body > div:first-of-type {
+    text-align: center; /* Zentriert den Timer */
+    padding: 10px 0; /* Etwas Abstand oben und unten */
+    background-color: #f0f0f0; /* Heller Hintergrund für den Timer-Bereich */
+    border-bottom: 2px solid #dcdcdc; /* Untere Grenzlinie für visuelle Trennung */
+    margin-bottom: 20px; /* Abstand zwischen Timer und Formular */
+  }
+  .page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.timer-container {
+  text-align: center;
+  margin-bottom: 20px;
+  /* Fügen Sie hier zusätzliche Stile hinzu, um den Timer visuell anzupassen */
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  /* Der restliche Stil für .container bleibt unverändert */
+}
+
+.warning_text {
+    color: #ff0000; /* Leuchtendes Rot für Alarm */
+    font-size: 20px; /* Große, aber lesbare Schrift */
+    font-weight: bold; /* Fettdruck für Stärke */
+    padding: 10px; /* Etwas Abstand um den Text */
+    background-color: #ffffff; /* Weißer Hintergrund, um Kontrast zu erhöhen */
+    border: 1px solid #ff0000; /* Roter Rand, der zum Text passt */
+    border-radius: 5px; /* Leicht gerundete Ecken für einen modernen Look */
+    display: inline-block; /* Damit Padding und Background nur den Text umschließen */
+    margin: 20px 0; /* Abstand nach oben und unten */
+}
+
+.Warnung_1 {
+    position: fixed;
+    top: 50%; /* Mitte des Bildschirms vertikal */
+    right: 20px; /* Abstand von rechts */
+    transform: translateY(-40%); /* Zentriert das Element vertikal */
+    width: 300px; /* Breite des Elements */
+    height: 300px; /* Höhe des Elements */
+
+}
+
+.Warnung_2 {
+    position: fixed;
+    top: 50%; /* Mitte des Bildschirms vertikal */
+    left: 20px; /* Abstand von links */
+    transform: translateY(-40%); /* Zentriert das Element vertikal */
+    width: 300px; /* Breite des Elements */
+    height: 300px; /* Höhe des Elements */
+}
+h1 {
+    color: green;
+}
