@@ -32,7 +32,7 @@ body {
   button[type="submit"] {
     padding: 10px;
     background-color: #6af011;
-    color: black;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
