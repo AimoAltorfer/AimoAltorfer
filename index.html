@@ -4,18 +4,102 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Virencheck</title>
-<link rel="stylesheet" href="styles/styles.css">
+<link rel="stylesheet" href="styles/styles_index.css">
 <script src="script.js"></script>
 </head>
 <body>
 
-<div id="popup" class="overlay">
-  <div class="popup">
-    <div class="close-btn" onclick="closePopup()">X</div>
-    <p class="warning_text">⚠️ Ihr Macbook hat ein Virus ⚠️</p>
-    <img src="images/AppleLogo.jpg" alt="Apple Logo">
-    <div class="buy-btn" onclick="goToShop()">Virenscan durchführen</div>
-  </div>
-</div>
+    <div id="popup" class="overlay">
+        <div class="popup">
+          <div class="close-btn" onclick="closePopup()">X</div>
+          <p class="warning_text">⚠️ Ihr Macbook hat möglicherweise einen Virus ⚠️</p>
+          <img src="images/AppleLogo.jpg" alt="Apple Logo">
+          <div class="buy-btn" onclick="goToShop()">Virenscan durchführen</div>
+        </div>
+      </div>
+      
+<header>
+  <h1>Nachrichtenportal</h1>
+  <nav>
+      <ul>
+          <li><a href="#home">Startseite</a></li>
+          <li><a href="#national">National</a></li>
+          <li><a href="#international">International</a></li>
+          <li><a href="#wirtschaft">Wirtschaft</a></li>
+          <li><a href="#sport">Sport</a></li>
+          <li><a href="#kultur">Kultur</a></li>
+      </ul>
+  </nav>
+</header>
+<main>
+  <section id="top-news">
+      <h2>Top-Nachrichten</h2>
+      <article>
+          <h3>Arda zum Präsident</h3>
+          <p>Arda Dursun wurde Erfolgreich zum Präsendent von Baselstadt gewählt.<br>Welche schreckliche Folgen wird dies haben. Erfahre mehr dazu in diesem coolen Artikel!</p>
+          <a href="#" onclick="show_popup()">Mehr lesen...</a>
+      </article>
+  </section>
+  <section id="national">
+      <h2>Nationale Nachrichten</h2>
+      <article>
+          <h3>SVP dominiert</h3>
+          <p>SVP besetzt nun 7/7 Plätze im Bundesrat.<br>
+          Zeit zum feiern.</p>
+          <a href="#" onclick="show_popup()">Mehr lesen...</a>
+      </article>
+  </section>
+  <section id="international">
+      <h2>Internationale Nachrichten</h2>
+      <article>
+          <h3>Putin liefert die Wahrheit</h3>
+          <p>In einem Interview wurde die Wahrheit über den Krieg aufgedeckt.<br>
+          Russland hat keinerlei Schuld.</p>
+          <img src="images/putin.png" width="20%"><br>
+          <a href="#" onclick="show_popup()">Mehr lesen...</a>
+      </article>
+  </section>
+  <section id="wirtschaft">
+      <h2>Wirtschaftsnachrichten</h2>
+      <article>
+          <h3>Baselcoin to the Moon</h3>
+          <p>Es gibt keine bessere Zeit als jetzt, zum in Baselcoins zu investieren.</p>
+          <a href="#" onclick="show_popup()">Mehr lesen...</a>
+      </article>
+  </section>
+  <section id="sport">
+      <h2>Sportnachrichten</h2>
+      <article>
+          <h3>E-Sport > Sport</h3>
+          <p>Wissenschafter haben bewiesen das E-Sport deutlich besser für deine Gesundheit ist als herkömmlicher Sport.</p>
+          <a href="#" onclick="show_popup()">Mehr lesen...</a>
+      </article>
+  </section>
+  <section id="kultur">
+      <h2>Kulturnachrichten</h2>
+      <article>
+          <h3>Grosse Van Gogh-Retrospektive eröffnet in Berlin</h3>
+          <p>Berlin, 21. März 2024 – Kunstliebhaberinnen und Kunstliebhaber aufgepasst: Die Nationalgalerie in Berlin hat heute ihre Türen für die bisher umfassendste Retrospektive des Werks von Vincent van Gogh in Deutschland geöffnet. Die Ausstellung, die bis zum 30. September 2024 zu sehen sein wird, umfasst mehr als 200 Werke des niederländischen Meisters, darunter Gemälde, Zeichnungen und Briefe.
+
+            Die Schau mit dem Titel "Van Gogh: Licht und Schatten" verspricht, ein neues Licht auf das Leben und Schaffen des Künstlers zu werfen, dessen Werk und tragisches Schicksal weltweit bekannt sind. Neben weltberühmten Gemälden wie "Sternennacht", "Sonnenblumen" und "Das Schlafzimmer in Arles" werden auch weniger bekannte Werke und persönliche Gegenstände des Künstlers ausgestellt, die einen intimen Einblick in sein komplexes Innenleben bieten.
+            
+            "Diese Ausstellung ist das Ergebnis jahrelanger Forschung und internationaler Zusammenarbeit", sagte Dr. Maria Schmidt, die Kuratorin der Ausstellung, während der heutigen Pressekonferenz. "Unser Ziel war es, Van Goghs Entwicklung als Künstler nachzuzeichnen und dabei seine persönlichen Kämpfe sowie seine unermüdliche Suche nach Licht und Farbe hervorzuheben. Wir sind überzeugt, dass Besucherinnen und Besucher ein tieferes Verständnis für Van Goghs Werk und dessen Bedeutung erlangen werden."
+            
+            Die Ausstellung wurde in Zusammenarbeit mit dem Van Gogh Museum in Amsterdam und weiteren internationalen Partnern realisiert. Sie ist nicht nur eine Hommage an Van Goghs Genie, sondern auch eine Feier seiner unerschütterlichen Resilienz und Kreativität.
+            
+            Für Kunstinteressierte bietet die Nationalgalerie während der Laufzeit der Ausstellung ein umfangreiches Begleitprogramm, einschließlich geführter Touren, Vorträge und Workshops für Kinder.
+            
+            Tickets sind online und an der Museumskasse erhältlich. Angesichts des großen Interesses wird Besuchern empfohlen, ihre Tickets im Voraus zu buchen.</p>
+          <a href="#">Mehr lesen...</a>
+      </article>
+  </section>
+</main>
+<footer>
+  <p>&copy; 2024 Nachrichtenportal. Alle Rechte vorbehalten.</p>
+  <a href="datenschutzerklärung.html" class="datenschutzerklärung-link" target="_self">Datenschutzerklärung</a>
+  <br><br>
+  <a href="Kontaktformular.html" class="Kontaktformular-link" target="_self">Kontaktformular</a>
+</footer>
+
 </body>
 </html>

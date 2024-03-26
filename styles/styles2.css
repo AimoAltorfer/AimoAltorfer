@@ -121,3 +121,13 @@ body {
 h1 {
     color: green;
 }
+
+@media (max-width: 1200px) {
+
+  .Warnung_1{
+    display: none;
+  }
+  .Warnung_2{
+    display: none;
+  }
+}

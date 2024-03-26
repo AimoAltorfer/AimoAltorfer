@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0; 
+  }
+  h2 {
+    color: #333; 
+    margin-bottom: 30px;
+  }
+  img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 20px;
+  }
