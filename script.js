@@ -16,8 +16,7 @@ function goToShop() {
 }
 
 function Absenden() {
-    window.open("index.html");
-    window.open("Mail.html", "_blank");
+    window.open("Mail.html");
 }
 
 function requestNotificationPermission() {
